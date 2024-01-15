@@ -1,5 +1,6 @@
 import WimpyLogo from "@/public/greg-heffley-foto.jpg";
 import Image from "next/image";
+import Link from "next/dist/client/link";
 
 function NavBar() {
     return (

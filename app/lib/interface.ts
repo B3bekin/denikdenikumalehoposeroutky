@@ -1,9 +1,6 @@
-export interface FirstBlogCard {
+export interface simpleBlogCard {
     title: string;
-    titleImage: any;
-    author: string;
-    date: any;
-    category: string;
     smallDescription: string;
     currentSlug: string;
+    titleImage: any;
 }
