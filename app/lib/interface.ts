@@ -1,7 +1,17 @@
 export interface simpleBlogCard {
     title: string;
     author: string;
-    category: string;   
+    category: string;
+    //smallDescription: string;
+    currentSlug: string;
+    titleImage: any;
+    date: string;
+}
+
+export interface FirstBlogCard {
+    title: string;
+    author: string;
+    category: string;
     smallDescription: string;
     currentSlug: string;
     titleImage: any;
@@ -11,7 +21,7 @@ export interface simpleBlogCard {
 export interface fullBlogCard {
     title: string;
     author: string;
-    category: string;   
+    category: string;
     smallDescription: string;
     currentSlug: string;
     titleImage: any;
